@@ -1,0 +1,131 @@
+.products {
+    position: relative;
+    height: 100%;
+    max-width: 1450px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 6rem auto;
+
+    .productResult {
+        margin: 3rem -10px 0; 
+    }
+
+}
+
+.product {
+    width: 25%;  
+    height: 100%;
+    float: left;
+    margin: 0 auto 2rem;
+    padding: 0 10px;
+
+
+    .thumb {
+        display: block;
+        width: 100%;
+
+        img {
+            display: block;
+            width: 100%;
+            margin: 0;
+        }
+    }
+
+    a {
+        color: #333333;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+      a, a:hover {
+        -webkit-transition: all .4s ease-in-out;
+        -moz-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+      }
+
+    .details {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding: 1rem 0;
+
+        ul, ul li {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul{
+            li {
+                display: block;
+                width: 100%;
+                list-style: none;
+                text-align: left;
+                margin: 0.5rem 0 0.5rem;
+
+                .name {
+                    font-size: 2.5rem;
+                    line-height: 1.2;
+                    font-weight: 400;
+                }
+
+                .price {
+                    font-size: 2.0rem;
+                    line-height: 1;
+                    font-weight: 400;
+                }
+
+                .origin {
+                    font-size: 1.5rem;
+                    line-height: 1;
+                    font-weight: 400;
+                    font-style: italic; 
+                }
+
+                .tasteNote {
+                    font-size: 1.5rem;
+                    line-height: 1;
+                    font-weight: 400;
+                    font-style: italic;
+                }
+
+                .addToBag {
+                    margin: 2rem 0 0 0;
+                    
+                    .icon {
+                        margin-left: 1rem;
+                    }
+                }
+
+                .lineman {
+
+                    background-color: chartreuse;
+
+                    a {
+                        color: #333333;
+                        text-decoration: none;
+                        cursor: pointer;
+                      }
+                      
+                      a, a:hover {
+                        -webkit-transition: all .4s ease-in-out;
+                        -moz-transition: all .4s ease-in-out;
+                        transition: all .4s ease-in-out;
+                      }
+
+                      .icon {
+                        margin-left: 1rem;
+                    }
+                }
+
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .product {
+      width: 100%;
+    }
+}

@@ -1,0 +1,45 @@
+.admin {
+  padding: 0 10px;
+
+ .header {
+   display: block;
+   width: 100%;
+   text-align: left;
+ }
+  
+ .nav {
+   display: flex;
+   justify-content: space-around;
+
+  .nav-item {
+    margin: "0 auto";
+    text-align: center;
+  }
+
+  }
+
+}
+
+
+
+@media only screen and (max-width: 980px) {
+  .manageProducts {
+    table {
+      width: 100%;
+
+      .results {
+        width: 100%;
+
+        tr td {
+          display: block;
+          width: 100%;
+
+          img {
+            display: block;
+            width: 100% !important;
+          }
+        }
+      }
+    }
+  }
+}
